@@ -129,7 +129,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #My setting
 LOGIN_URL = 'users:login'
-
+LOGOUT_REDIRECT_URL = "learning_logs:index"
 
 
 # Heroku setting
